@@ -1,0 +1,2 @@
+# Objective-C Memory Management Bug
+This repository demonstrates a common memory leak in Objective-C related to improper handling of `retain`, `release`, and `autorelease` when dealing with properties.  The `bug.m` file contains the erroneous code, leading to a memory leak of an NSString object. The `bugSolution.m` file presents the corrected code using autorelease and ARC best practices.
